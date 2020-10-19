@@ -32,4 +32,13 @@ public class Message {
     public void setSendTime(Date sendTime) {
         this.sendTime = sendTime;
     }
+
+    @Override
+    public String toString() {
+        return "Message{" +
+                "id='" + id + '\'' +
+                ", msg='" + msg + '\'' +
+                ", sendTime=" + sendTime +
+                '}';
+    }
 }
